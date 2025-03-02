@@ -20,12 +20,22 @@ This project provides a basic encryption and decryption system in PHP. It uses a
    cd EncryptDecrypt
 
 
-## **Usage**
+### **Usage Example**
 
-Follow these steps to use the EncryptDecrypt class in your PHP project:
-
-### 1. Create an instance of the EncryptDecrypt class:
-To start using the encryption and decryption functions, first, create an instance of the `EncryptDecrypt` class.
+Here is a simple example to show how to use the `EncryptDecrypt` class to encrypt and decrypt a message:
 
 ```php
+// Create an instance of EncryptDecrypt
 $encryptDecrypt = new EncryptDecrypt();
+
+// Original message
+$originalMessage = "Hello, World!";
+
+// Encrypt the message
+$encryptedMessage = $encryptDecrypt->encrypt($originalMessage);
+echo "Encrypted: " . $encryptedMessage . "<br>";
+
+// Decrypt the message
+$decryptedMessage = $encryptDecrypt->decrypt($encryptedMessage);
+echo "Decrypted: " . $decryptedMessage . "<br>";
+
