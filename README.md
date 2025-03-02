@@ -38,7 +38,7 @@ echo "Encrypted: " . $encryptedMessage . "<br>";
 // Decrypt the message
 $decryptedMessage = $encryptDecrypt->decrypt($encryptedMessage);
 echo "Decrypted: " . $decryptedMessage . "<br>";
-
+```
 
 
 ## Social Media Links
