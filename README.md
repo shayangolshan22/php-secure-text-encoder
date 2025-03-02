@@ -18,3 +18,14 @@ This project provides a basic encryption and decryption system in PHP. It uses a
    ```bash
    git clone https://github.com/shayangolshan22/EncryptDecrypt.git
    cd EncryptDecrypt
+
+
+## **Usage**
+
+Follow these steps to use the EncryptDecrypt class in your PHP project:
+
+### 1. Create an instance of the EncryptDecrypt class:
+To start using the encryption and decryption functions, first, create an instance of the `EncryptDecrypt` class.
+
+```php
+$encryptDecrypt = new EncryptDecrypt();
