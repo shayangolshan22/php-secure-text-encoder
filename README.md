@@ -1,16 +1,20 @@
-# PHP Secure Text Encoder
+# EncryptDecrypt
 
-A lightweight PHP class for encrypting and decrypting text using a predefined character mapping system.  
-⚠ **Not suitable for storing passwords!** Use `password_hash()` instead.
+A simple PHP encryption and decryption system for encoding and decoding text using a character mapping system.
 
-## Features
-- Simple character mapping encryption
-- Multiple encrypted values per character for added randomness
-- Easy decryption back to original text
-- No external dependencies
+## **Description**
 
-## Installation
-Clone the repository or download the `EncryptDecrypt.php` file.
+This project provides a basic encryption and decryption system in PHP. It uses a character-to-encoded value mapping to encrypt and decrypt messages. The system works by replacing characters with pre-defined encoded values and is suitable for simple data obfuscation.
 
-```sh
-git clone https://github.com/shayangolshan22/php-secure-text-encoder.git
+## **Features**
+
+- Encrypt and decrypt text using a character mapping system.
+- Provides customizable encoding values for each character.
+- Supports characters, punctuation, and special symbols.
+
+## **Installation**
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shayangolshan22/EncryptDecrypt.git
+   cd EncryptDecrypt
